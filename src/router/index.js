@@ -1,5 +1,5 @@
 import Vue from "vue";
-import VueRouter, { createWebHistory } from "vue-router";
+import { createWebHistory, createRouter } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 
 Vue.use(VueRouter);
@@ -21,8 +21,7 @@ const routes = [
   },
 ];
 
-const router = new VueRouter({
-  mode: "history",
+const router = createRouter({
   history: createWebHistory("/dessert-app-vue/"),
   routes,
 });
