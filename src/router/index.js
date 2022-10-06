@@ -1,8 +1,8 @@
-import Vue from "vue";
+// import Vue from "vue";
 import { createWebHistory, createRouter } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 
-Vue.use(VueRouter);
+// Vue.use(VueRouter);
 
 const routes = [
   {
